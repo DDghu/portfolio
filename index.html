@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,13 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body class="main-content">
     <header class="container header active" id="home">
         <div class="header-content">
@@ -22,12 +27,16 @@
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    <span id="typed-text"></span>
+                    <span>Hi,I am Deepjoy Das.</span>
                 </h1>
+                <h2 class="name">
+                    <span id="typed-text"></span>
+                </h2>
+                
                 <p>
                     I'm a machine learning enthusiast in Generative AI domain.
                     I'm a Web Developer, I love to create beautiful and functional websites.
-                    
+
                 </p>
                 <div class="btn-con">
                     <button class="main-btn" onclick="downloadPDF()">
@@ -39,26 +48,26 @@
         </div>
     </header>
     <main>
-        <section class="container about" id="about">
+        <div class="section-content about" id="about">
             <div class="main-title">
                 <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
             </div>
             <div class="about-container">
                 <div class="left-about">
                     <h4>About me</h4>
-                    <p>          
-I possess an outgoing, dedicated, and open-minded nature. Connecting with
-people and adapting to changes come naturally to me. I firmly believe in
-continuously honing professional skills and embracing learning 
-opportunities. At the moment, I am seeking new career prospects beyond 
-the limitations of my current job role.
+                    <p>
+                        I possess an outgoing, dedicated, and open-minded nature. Connecting with
+                        people and adapting to changes come naturally to me. I firmly believe in
+                        continuously honing professional skills and embracing learning
+                        opportunities. At the moment, I am seeking new career prospects beyond
+                        the limitations of my current job role.
                     </p>
-                    <div class="btn-con">
+                    <!-- <div class="btn-con">
                         <a href="#" class="main-btn">
                             <span class="btn-text">Download CV</span>
                             <span class="btn-icon"><i class="fas fa-download"></i></span>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="right-about">
                     <div class="about-item">
@@ -66,132 +75,132 @@ the limitations of my current job role.
                             <p class="large-text">1+</p>
                             <p class="small-text">Projects <br /> Completed</p>
                         </div>
+                    </div>
                 </div>
+                <div class="about-stats">
+                    <h4 class="stat-title">My Skills</h4>
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">html5</p>
+                            <div class="progress-con">
+                                <p class="prog-text">80%</p>
+                                <div class="progress">
+                                    <span class="html"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">C++</p>
+                            <div class="progress-con">
+                                <p class="prog-text">85%</p>
+                                <div class="progress">
+                                    <span class="cpp"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">C</p>
+                            <div class="progress-con">
+                                <p class="prog-text">85%</p>
+                                <div class="progress">
+                                    <span class="c"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">css3</p>
+                            <div class="progress-con">
+                                <p class="prog-text">55%</p>
+                                <div class="progress">
+                                    <span class="css"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">javascript</p>
+                            <div class="progress-con">
+                                <p class="prog-text">75%</p>
+                                <div class="progress">
+                                    <span class="js"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">Python</p>
+                            <div class="progress-con">
+                                <p class="prog-text">80%</p>
+                                <div class="progress">
+                                    <span class="python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <h4 class="stat-title">My Timeline</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2010 - present</p>
+                        <h5>Web Developer<span> - Vircrosoft</span></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2008 - 2011</p>
+                        <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2016 - 2017</p>
+                        <h5>C++ Programmer<span> - Slime Tech</span></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2009 - 2013</p>
+                        <h5>Business Degree<span> - Sussex University</span></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2013 - 2016</p>
+                        <h5>Computer Science Degree<span> - Brookes University</span></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2017 - present</p>
+                        <h5>3d Animation<span> - Brighton University</span></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        </p>
+                    </div>
+                </div> -->
             </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C++</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="cpp"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="c"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">55%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2010 - present</p>
-                    <h5>Web Developer<span> - Vircrosoft</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2008 - 2011</p>
-                    <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2016 - 2017</p>
-                    <h5>C++ Programmer<span> - Slime Tech</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2009 - 2013</p>
-                    <h5>Business Degree<span> - Sussex University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2013 - 2016</p>
-                    <h5>Computer Science Degree<span> - Brookes University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017 - present</p>
-                    <h5>3d Animation<span> - Brighton University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="portfolio">
+        <div class="section-content portfolio" id="portfolio">
             <div class="main-title">
                 <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
             </div>
@@ -207,7 +216,7 @@ the limitations of my current job role.
                         <h3>My Portfolio</h3>
                         <div class="icons">
                             <a href="https://ddghu.github.io/portfolio/" class="icon">
-                                <i class="fab fa-github"></i>
+                                <i class="fa fa-link"></i>
                             </a>
                         </div>
                     </div>
@@ -217,16 +226,10 @@ the limitations of my current job role.
                         <img src="img/port2.jpg" alt="">
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3>Whatsapp Chat Analyser</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
+                            <a href="https://whatsapp-chatanalysis-r14g.onrender.com" class="icon">
+                                <i class="fa fa-link"></i>
                             </a>
                         </div>
                     </div>
@@ -239,14 +242,14 @@ the limitations of my current job role.
                         <h3>Project Source</h3>
                         <div class="icons">
                             <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
+                                <i class="fa fa-link"></i>
                             </a>
-                            <a href="#" class="icon">
+                            <!-- <a href="#" class="icon">
                                 <i class="fab fa-behance"></i>
                             </a>
                             <a href="#" class="icon">
                                 <i class="fab fa-youtube"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -327,8 +330,9 @@ the limitations of my current job role.
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="container contact" id="contact">
+        </div>
+        <!-- <section class="container contact" id="contact"> -->
+        <div class="section-content contact" id="contact">
             <div class="contact-container">
                 <div class="main-title">
                     <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
@@ -337,7 +341,7 @@ the limitations of my current job role.
                     <div class="left-contact">
                         <h4>Contact me here</h4>
                         <p>
-                           Welcome to contact me.
+                            Welcome to contact me.
                         </p>
                         <div class="contact-info">
                             <div class="contact-item">
@@ -346,13 +350,13 @@ the limitations of my current job role.
                                     <span>Location : </span>
                                 </div>
                                 <p>
-                                  Samshan Road,Silchar
+                                    Samshan Road,Silchar
                                 </p>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
                                     <i class="fas fa-envelope"></i>
-                                    <span>Email : </span>
+                                    <span>Email:</span>
                                 </div>
                                 <p>
                                     <span> deepjoydas02@gmail.com</span>
@@ -369,7 +373,7 @@ the limitations of my current job role.
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
+                                    <i class="fas fa-phone"></i>
                                     <span>Mobile Number : </span>
                                 </div>
                                 <p>
@@ -410,7 +414,8 @@ the limitations of my current job role.
                                 <input type="text" required placeholder="ENTER SUBJECT" name="subject">
                             </div>
                             <div class="input-control">
-                                <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea name="message" id="" cols="15" rows="8"
+                                    placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
                                 <button type="submit" class="main-btn">
@@ -422,11 +427,11 @@ the limitations of my current job role.
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 
     <div class="controls">
-        <div class="control active-btn" data-id="home" >
+        <div class="control active-btn" data-id="home">
             <i class="fas fa-home"></i>
         </div>
         <div class="control" data-id="about">
@@ -435,9 +440,6 @@ the limitations of my current job role.
         <div class="control" data-id="portfolio">
             <i class="fas fa-briefcase"></i>
         </div>
-        <!-- <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div> -->
         <div class="control" data-id="contact">
             <i class="fas fa-envelope-open"></i>
         </div>
@@ -449,8 +451,8 @@ the limitations of my current job role.
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             // The text to be typed
-            const typedText = "Hi, I'm Deepjoy Das. A ML enthusiast and Web Developer.";
-    
+            const typedText = " A Machine Learning enthusiast and frontend Web Developer.";
+
             // Options for Typed.js
             const options = {
                 strings: [typedText],
@@ -459,7 +461,7 @@ the limitations of my current job role.
                 cursorChar: "|", // Character for cursor
                 loop: true, // Set to true to loop the animation
             };
-    
+
             // Initialize Typed.js
             const typed = new Typed("#typed-text", options);
         });
@@ -468,18 +470,18 @@ the limitations of my current job role.
         function setEmailAction() {
             // Get the user's input email from the "YOUR EMAIL" input field
             var userEmail = document.getElementById("user-email").value;
-    
+
             // Get the form data
             var form = document.querySelector(".contact-form");
             var subject = form.subject.value;
             var message = form.message.value;
-    
+
             // Construct the mailto URL with subject and message
             var mailtoLink = "mailto:" + userEmail + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(message);
-    
+
             // Redirect the user to the mailto link
             window.location.href = mailtoLink;
-    
+
             // Prevent the form submission since the email is handled through the mailto link
             return false;
         }
@@ -489,37 +491,88 @@ the limitations of my current job role.
             // Replace the URL with the direct URL to the PDF file
             var pdfURL = "CV.pdf";
             var fileName = "Deepjoy's-CV.pdf"; // The desired file name
-        
+
             fetch(pdfURL)
-            .then(response => response.blob())
-            .then(blob => {
-                var a = document.createElement("a");
-                a.style.display = "none";
-                document.body.appendChild(a);
-        
-                var url = window.URL.createObjectURL(blob);
-                a.href = url;
-                a.download = fileName;
-                a.click();
-        
-                window.URL.revokeObjectURL(url);
-            })
-            .catch(error => {
-                console.error("Error downloading the PDF: ", error);
-            });
+                .then(response => response.blob())
+                .then(blob => {
+                    var a = document.createElement("a");
+                    a.style.display = "none";
+                    document.body.appendChild(a);
+
+                    var url = window.URL.createObjectURL(blob);
+                    a.href = url;
+                    a.download = fileName;
+                    a.click();
+
+                    window.URL.revokeObjectURL(url);
+                })
+                .catch(error => {
+                    console.error("Error downloading the PDF: ", error);
+                });
         }
-        </script>
+    </script>
     <script src="app.js"></script>
     <script>
         // Smooth scrolling when clicking on navigation links
-        const navLinks = document.querySelectorAll('.navbar a');
+        const navLinks = document.querySelectorAll('.control');
         navLinks.forEach(link => {
-            link.addEventListener('click', e => {
-                e.preventDefault();
-                const targetSection = document.querySelector(link.getAttribute('href'));
+            // link.addEventListener('click', e => {
+            //     e.preventDefault();
+            //     const targetSection = document.querySelector(link.getAttribute('href'));
+            //     targetSection.scrollIntoView({ behavior: 'smooth' });
+            link.addEventListener('click', () => {
+                const sectionId = link.getAttribute('data-id');
+                const targetSection = document.getElementById(sectionId);
                 targetSection.scrollIntoView({ behavior: 'smooth' });
             });
         });
+    </script>
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.getElementsByClassName('section-content');
+            for (let i = 0; i < sections.length; i++) {
+                sections[i].classList.remove('active');
+            }
+
+            // Show the selected section
+            // const selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('active');
+        }
+    </script>
+    <script>
+        // Function to check if an element is in the viewport
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Function to reveal sections as the user scrolls down
+        function revealSectionsOnScroll() {
+            var sections = document.querySelectorAll('.section-content');
+            for (var i = 0; i < sections.length; i++) {
+                if (isElementInViewport(sections[i])) {
+                    sections[i].classList.add('active');
+                }
+            }
+        }
+
+        // Attach the revealSectionsOnScroll function to the scroll event
+        window.addEventListener('scroll', revealSectionsOnScroll);
+
+        // Initially call the function to show the sections in view on page load
+        revealSectionsOnScroll();
+    </script>
+
+
+</body>
+
+</html>
     </script>
 </body>
 </html>

@@ -172,7 +172,7 @@
   }
   .header-content .left-header .image {
     border-radius: var(--br-sm-2);
-    height: 80%;
+    height: 100%;
     width: 70%;
     margin-left: 4rem;
     background-color: var(--color-black);
@@ -908,9 +908,6 @@
     .main-title h2 .bg-text {
       font-size: 4rem;
     }
-  }
-  
-  /*# sourceMappingURL=styles.css.map *
   }
   
   /*# sourceMappingURL=styles.css.map *
